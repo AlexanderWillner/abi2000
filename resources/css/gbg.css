@@ -1,0 +1,15 @@
+.album {
+    max-width:95%;
+    min-width:1em;
+    clear:both;
+}
+
+.album, .x-map, .x-scroller {
+    margin: 13px;
+    border: 1px solid black;
+    background: #edebeb;
+    -webkit-box-shadow: 3px 3px 5px #444444;
+    -moz-box-shadow: 3px 3px 5px #444444;
+    box-shadow: 3px 3px 5px #444444;
+}
+

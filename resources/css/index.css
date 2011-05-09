@@ -1,0 +1,117 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font-size:100%;
+  font: inherit;
+  vertical-align:baseline;
+}
+
+html {
+    height:100%;
+    width:100%;
+    background: #eee fixed;
+    background: -moz-linear-gradient(top, #ccc, #fafafa) fixed;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ccc)) fixed;
+    background-repeat: no-repeat;
+}
+
+
+#app, #main ul {
+    width: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: 5em;
+    list-style-type: none;
+}
+#main ul li {
+    padding:2em;
+    float:left;
+}
+#main ul {
+    margin-top: 25em;
+}
+
+#app {
+    width: 400px;
+    height: 265px;
+}
+
+#apparrow {
+    width: 227px;
+    height: 104px;
+    position: relative;
+    left: 50%;
+    top: -70%;
+    margin-left: 0px;
+    margin-top: -140px;
+}
+
+#video {
+    height: 100px;
+    width: 170px;
+    border-top:5px solid black;
+    border-bottom:5px solid black;
+}
+
+
+#videoarrow {
+    width: 200px;
+    height: 92px;
+    position: relative;
+    left: -40%;
+    top: 30%;
+    margin-left: 0px;
+    margin-top: -140px;
+}
+
+#download {
+    height: 100px;
+    width: 136px;
+}
+
+
+#downloadarrow {
+    width: 227px;
+    height: 104px;
+    position: relative;
+    left: -5%;
+    top: 12%;
+    margin-left: 0px;
+    margin-top: -140px;
+}
+
+
+.shadow {
+                -webkit-box-shadow: 7px 7px 7px #aaa;
+                -moz-box-shadow: 7px 7px 7px #aaa;
+                box-shadow: 7px 7px 7px #aaa;
+                border:1px solid black;
+                -webkit-border-radius: 5px;
+                -moz-border-radius: 5px;
+                border-radius: 5px;
+}
+
+#videoplayer {
+                height: 400px;
+                width: 680px;
+                left: 50%;
+                margin-left: -340px;
+                margin-top: -200px;
+                position: absolute;
+                top: 50%;
+}
+
