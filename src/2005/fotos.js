@@ -1,10 +1,23 @@
 _2005.Fotos = new Ext.TabPanel({
     sortable: true,
     ui: 'dark',
-    items: [{
+    items: [
+    {
         scroll: 'vertical',
-        title: 'Von Alex',
-        html: 'Bitte das Bild anklicken...<br/><a href="http://abi2000.alexanderwillner.de/album/"><img class="album" src="./external/2005/fotos/alex/album_2005_alex.jpg" /></a>',
+        title: 'Lina',
+        html: '<img src="./external/2010/fotos/lina/Aug__Sept__2005_001.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_003.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_004.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_007.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_008.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_009.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_010.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_011.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_014.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_017.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_019.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_020.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_021.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_023.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_018.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_024.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_025.jpg" class="album" /><img src="./external/2010/fotos/lina/Aug__Sept__2005_026.jpg" class="album" /><img  class="album" src="./external/2010/fotos/lina/Aug__Sept__2005_028.jpg" /><img  class="album" src="./external/2010/fotos/lina/Aug__Sept__2005_029.jpg" /><img  class="album" src="./external/2010/fotos/lina/Aug__Sept__2005_030.jpg" /><img  class="album" src="./external/2010/fotos/lina/Aug__Sept__2005_034.jpg" /><img  class="album" src="./external/2010/fotos/lina/Aug__Sept__2005_035.jpg" /><img  class="album" src="./external/2010/fotos/lina/Aug__Sept__2005_037.jpg" />',
+        cls: 'card'
+    },
+    {
+        scroll: 'vertical',
+        title: 'Katrin',
+        html: '<img src="./external/2005/fotos/katrin/./RIMG1879_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1880_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1881_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1882_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1883_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1884_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1885_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1886_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1887_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1888_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1889_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1890_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1891_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1893_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1894_m.jpg" class="album" /><img src="./external/2005/fotos/katrin/./RIMG1895_m.jpg" class="album" />',
+        cls: 'card'
+    },
+    {
+        scroll: 'vertical',
+        title: 'André',
+        html: '<img src="./external/2005/fotos/andre/./133_3352.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3353.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3355.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3356.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3357.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3358.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3359.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3360.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3361.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3362.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3364.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3365.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3366.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3367.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3368.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3370.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3371.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3372.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3373.JPG" class="album" /><img src="./external/2005/fotos/andre/./133_3375.JPG" class="album" />',
         cls: 'card'
     },
     ]
