@@ -12,6 +12,8 @@ resources/css/index.css
 resources/css/sencha-touch.css
 resources/css/sink.css
 resources/css/video-js.css
+resources/flash/flowplayer-3.2.7.swf
+resources/flash/flowplayer.controls-3.2.5.swf
 resources/img/app_loading.png
 resources/img/arrow.png
 resources/img/download.png
