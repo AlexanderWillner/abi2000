@@ -30,11 +30,13 @@ html {
 
 
 #app, #main ul {
-    width: 500px;
+    width: 400px;
+    height: 265px;
     position: absolute;
     left: 50%;
-    margin-left: -250px;
-    margin-top: 5em;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -133px;
     list-style-type: none;
 }
 #main ul li {
